@@ -19,7 +19,7 @@ for n in range(nt):  #iterate through time
     
      ###This is the line from Step 1, copied exactly.  Edit it for our new equation.
      ###then uncomment it and run the cell to evaluate Step 2   
-           ###u[i] = un[i] - c * dt / dx * (un[i] - un[i-1])       
+           ### u[i] = un[i] - c * dt / dx * (un[i] - un[i-1])       
            u[i] = un[i] - un[i] * dt / dx * (un[i] - un[i-1]) 
 
         
